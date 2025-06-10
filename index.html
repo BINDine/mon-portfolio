@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO SITEWEB</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/61d614d906.js" crossorigin="anonymous"></script>
+    <script src="script.JS"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo">BINDINE</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Accueil</a></li>
+            <li><a href="#about">Apropos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+        </nav>
+        <div id="abouts">
+          <div class="containers">
+            <div class="rows">
+              <div class="abouts-cols-2">
+                <p class="sub-titles">UI/UX Designer</p>
+                <h1>
+                  Hello, Je suis <span>BINDINE</span><br />Développeur web et
+                  mobile
+                </h1>
+              </div>
+              <div class="abouts-cols-1">
+                <img src="images/phonebacgroung (2).png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Apropos de moi -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">Apropos de moi</h1>
+            <p>
+              Développeur Web & mobile passionné, orienté création d’applications modernes, fluides et intuitives. Solide maîtrise des technologies Web (HTML, CSS, JavaScript, PHP, Laravel) et mobile (Flutter, Firebase), avec un fort esprit d’équipe, une grande curiosité et une volonté constante d'apprendre et d'innover. Capable de transformer des idées en solutions fonctionnelles, je suis prêt à relever tous les défis techniques !
+            </p>
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="opentab('Mes compétences')"
+              >
+                Mes compétences
+              </p>
+              <p class="tab-links" onclick="opentab('Mes experiences')">
+                Mes experiences
+              </p>
+              <p class="tab-links" onclick="opentab('Mon cursus')">
+                Mon cursus
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="Mes compétences">
+              <ul>
+                <li>
+                  <span>Graphiste</span><br />Conception : logo, carte de
+                  visite, badge et document de presenttion
+                </li>
+                <li>
+                  <span>Développeur web</span><br />Maitrise du HTML5, CSS,
+                  JAVASCRIPT,CMS,MySQL,PHP
+                </li>
+                <li>
+                  <span>Développeur mobile</span><br />Maitrise de Dart et
+                  flutter
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Mes experiences">
+              <ul>
+                <li>
+                  <span>2022</span><br />IYF-Togo : Gestion-suivi de projet
+                </li>
+                <li><span>2021-2022</span><br />Team-leader : AIESEC-UL</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Mon cursus">
+              <ul>
+                <li><span>2009-2014</span><br />BEPC : CEG-Dapang ville</li>
+                <li><span>2014-2018</span><br />BAC2 : Lycée Dapaong ville</li>
+                <li>
+                  <span>2019-2023</span><br />Licence : Université de lomé
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------- Services ----------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Mes services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-desktop"></i>
+            <h2>Développement Web/Mobile</h2>
+            <p>
+              Conception des sites web dynamique et moderne, Développement des
+              sites et application mobile
+            </p>
+            <a href="#">Lire plus</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Graphisme</h2>
+            <p>
+              Retouche photo, conception d’affiche,de logos, cartes de visites
+              et document de présentation
+            </p>
+            <a href="#">Lire plus</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-wordpress-simple"></i>
+            <h2>Pack-M</h2>
+            <p>Maitrise parfaite de Word, Excel et Powerpoint</p>
+            <a href="#">Lire plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------Portfolio---------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Passe temps</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work1.png" />
+            <div class="layer">
+              <h3>Reseaux sociaux</h3>
+              <p>
+                Les reseaux sociaux me permettent de se connecter avec les peuples
+                talentueux à travers le monde; avoir les informations et faire
+                du mieux mes recherche personnelles
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work2.png" />
+            <div class="layer">
+              <h3>La Programmation</h3>
+              <p>
+                Le Html, le css, le javascript, my sql, le php, laravel, Dart et flutter sont
+                mes compagnons de tout les jours en tout c'est mon quotidien,
+                c'est ma passion et je la vie
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work3.png" />
+            <div class="layer">
+              <h3>La boxe anglaise et le football</h3>
+              <p>
+                Une jounée de moi sans visionner la boxe ni le football C' est
+                passé presque une pire de mes journées, la boxe m'aide a me
+                passer du stress...
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">Voir plus</a>
+      </div>
+    </div>
+
+    <!-- ----------------Contats---------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Me contacter</h1>
+            <p><i class="fa-regular fa-envelope"></i>tbindine@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>00228 91 72 41 09</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/tola.lieguibe"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/tbindine?igsh=YzljYTk1ODg3Zg=="><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-snapchat"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a
+              href="images/BINDINE Tampo Développeur web et mobile(4).pdf"
+              download
+              class="btn btn2"
+              >Télécharger le CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Votre nom et prenom"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Votre mail"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Votre message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Envoyer</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>tbindine.dev<i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i> ...portfolio pro</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.rigth = "0";
+      }
+      function closenmenu() {
+        sidemeu.style.rigth = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxxtwahSev1l_H196oYtGN2ojAKk0yJr4Q7MPucuQwoZHNRGxAF2PbbFotOZy79_Bpv/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message envoyer avec sucess"
+            setTimeout(function(){
+              msg.innerHTML = "" 
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    <!-- https://script.google.com/macros/s/AKfycbzTmAJVgrIdJoNi6a2_MmTmx2vpydKfOAwP_VCI6qw9wSFwV7iPsUuYNr4IokPGtpuw/exec -->
+  </body>
+</html>
